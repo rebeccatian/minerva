@@ -5,12 +5,13 @@ body {
     color: whitesmoke;
 }
 h1 {
-    font-size: 130px;
+    font-size: 5rem;
+    width: 100vw;
 }
 .header {
     text-align: center;
 }
 .summary {
-    margin-top: 5%;
-    padding: 5%;
+    margin-top: 1rem;
+    padding: 4rem;
 }
