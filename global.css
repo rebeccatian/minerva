@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(107, 62, 47);
+    color: whitesmoke;
+}
+h1 {
+    font-size: 130px;
+}
+.header {
+    text-align: center;
+}
+.summary {
+    margin-top: 5%;
+    padding: 5%;
+}
