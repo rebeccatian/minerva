@@ -1,14 +1,13 @@
 body {
-    padding: 3px;
+    padding: 5%;
     background-color: rgb(107, 62, 47);
     color: whitesmoke;
 }
-.header {
-    text-align: center;
+h1 {
+    width: 100vw;
 }
 .summary {
     margin-top: 1rem;
-    padding: 4rem;
 }
 .bullet-heading {
     font-size: large;
@@ -18,11 +17,9 @@ body {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
 }
 .sections {
-    padding: 20px;
+    padding: 10%;
 }
 ul > li {
     padding-top: 5px;
