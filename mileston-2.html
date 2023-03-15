@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <title>Minerva.class</title>
+</head>
+<body>
+    <div class="milestone">
+        <h1>Milestone 2</h1>
+            <div class="section">
+                <h2>Task A</h2>
+                <ol>
+                    <li>
+                        <h3  class="bullet-heading">Introduce the problem</h3>
+                        <ul>
+                            <li>Athena is used by every UGA student for managing information related to their academic career from class scheduling to accessing their student accounts. The Athena interface has challenging UI/UX because it can hinder and even prevent students from registering for a working schedule.
+                                Even after an advisor gives the available classes, it is difficult to plan a working schedule with the current Athena interface. While Athena does have the option to create plans, there is no way to view these plans on one screen, which makes it harder to decide which plan is the most optimal.This is not only unideal but also problematic as the confusion related around class planning can lead to students not signing up for the correct classes (1). Additionally, there is no way to view all the time slots for the necessary classes concurrently, which leads to students registering for classes that do not work with their other required classes. Sometimes a schedule could work except for one class that has a small overlap, which would cause you to have to start all over again. Trying to find all the sections that work with each other is a huge challenge, even with the planning feature, because students have no way to compare all the possible sections of different classes at once. Frequently students have to turn to third party software like CourseOff or Coursera to help them see all the classes that are open to them. 
+                                Furthermore, Athena scheduling poses another problem because it does not list out classes that are only offered less regularly, which leads to students not registering for classes they need on time. Athena also does not show the location of the classes during registration, resulting in students registering for classes that are too far apart. All of these issues could cause students to not have the credits required to graduate, fatigue students with unideal schedules that could hinder their academic success, and have negative consequences on student health.(2)
+                                In terms of examples of specific design failures, the Athena interface itself is confusing and hard to navigate. Some signifiers such as the buttons on the menu end up being anti-affordances because they do not communicate the affordances, such as pulling up the menu and viewing content as they should. For example, there are buttons on the table menu that are not clear what their functions are. This presents further problems because it is hard to use and confuses the user. Not only are the three windows on the scheduling page frustrating to position, it is also challenging to view the necessary course information on one page.   
+                                Due to the anti-intuitive interface of Athena scheduling, students fall to confusion fatigue and move to other websites to ensure that their schedule can actually work or fail to register for the correct classes that they need.(4) Our team wants to find a solution to improve this scheduling experience with the goal of making it more intuitive and efficient. 
+                            </li>
+                            <li>
+                                Seven stages of action: 
+                                <br>
+                                Goal - The user wants to register for their classes
+                                <br>
+                                Plan - After meeting with their advisor to help detail what classes the user needs to take, they weigh their options for what classes they would like to take. Using Athena’s tools to make schedules, they make a few different plans; one as their preferred schedule and one as a backup in case some classes are filled
+                                <br>
+                                Specify - The user decides that the preferred schedule is the one they are going to input into the Athena registration page when he is able to register. 
+                                <br>
+                                Perform - The user navigates to the Athena registration page, inputs the CRN or searches for the classes they intend to take, and hits the register button. 
+                                <br>
+                                Perceive - The user sees the classes that he added to be registered at the bottom of their screen. They notice the green “registered” box next to these classes. They also see their schedule in a calendar format next to the list of classes. The user may also see that the class failed to register due to the fact that the class was full and the user wasn’t aware or that the class conflicted with another class that they had already registered for. 
+                                <br>
+                                Interpret - The user was very pleased with the classes that registered on the first try. It was the plan that he had taken a while to create, as the planning function in Athena tends to take a lot of time and effort. However, the classes that had failed to register frustrated the user. Because of this, they are going to end up taking classes from 8 AM to 2 PM with little time in between. 
+                                <br>
+                                Compare - The user has met their goal with a few asterisks according to their interpretation of the goal. While they have successfully registered for classes that will help them graduate, the user may not have an optimal schedule which could hinder their academic performance and overall health. 
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3  class="bullet-heading">Identify your potential users</h3>
+                        Students (specifically students who have been advised), faculty/professors, advisors are all potential users of Athena. Students could benefit from an improved scheduling tool because they may be able to find schedules that would maximize their overall performance and health, allow them to adjust the schedule depending on if they have conflicts at different times of the day, and overall improve their school experience. Faculty and professors would benefit from this too, since students with schedules that improve student performance will create a more engaging atmosphere for the professors. Finally, advisors would not have to deal with trivial scheduling issues and be able to focus on student advising problems that aren’t related to scheduling as often if the tool is improved
+                    </li>
+                </ol>
+            </div>
+            <div class="section">
+                <h2>Task B</h2>
+                <ol>
+                    <li>
+                        <h3  class="bullet-heading">Describe existing solutions</h3>
+                        <h4>
+                            <ul>
+                                <li>
+                                    Courseoff/third-party websites 
+                                </li>
+                                <li>
+                                    KSU’s scheduling system
+                                </li>
+                            </ul>
+                        </h4>
+                        <ul>
+                            <li>Coursera, Courseoff, and other third-party scheduling websites offer a much more intuitive interface.(4) Not only is the design much more pleasing to the eye, it is also much less overwhelming and more simple to navigate. The calendar is much larger than on Athena, and the blocks for courses display more information. Instead of having to click on the class to see the exact time and the professor, all of that information is displayed in a column on the side. There is also a star feature that enables users to queue all the classes they’re considering in this column, and star the ones that they want to show up on the calendar. This allows students to test out different combinations of schedules easily, instead of having to search up, add, and remove classes repeatedly. It also allows for further customization of changing the course color, which can aid in organization. The only drawback of these websites is that they don’t enable the user to have multiple plans. Since these websites are third-party, they might also not have the most up to date information, and require that the student has to go back to their school’s schedule builder and manually re-input their schedule.
+
+                            </li>
+                            <li>
+                                KSU’s dynamic schedule is an example of a college schedule builder maintained by a university. To create a plan, students add the classes that they want to their schedule, and when they go to register they are given a list of all the potential schedules that they could register for. This includes all the different professors, times, and locations. Students are also warned if they are registering for classes on different campuses on the same day, or if classes are scheduled very closely together. Though KSU’s schedule builder has its own issues with unintuitive UI and doesn’t allow students to make multiple plans, it greatly reduces the amount of thinking the students have to do in order to get a schedule that actually works with no conflicts.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3  class="bullet-heading">Describe potential guidelines and solutions</h3>
+                        Both of the solutions referred to above follow the general guideline of prioritizing ease of scheduling. Both have features that enable the student to view information with ease and convenience. Students are able to consolidate all the information related to their schedule in one spot to make it easier to plan their semester. Services such as Coursera and Courseoff follow principles of good design by having an easily navigable calendar with a design that intuitively sorts and displays information. KSU’s schedule builder provides a system that does all of the mentally taxing work for the student, thus allowing them to pick the schedule with the best times, professors, locations, etc. A combination of the principles followed by these other programs results in an effective design where the strenuous labor is done by a system with an interface that is friendly to the user. 
+                    </li>
+                </ol>
+            </div>
+            <div class="section">
+                <h2>Task C</h2>
+                <ol>
+                    <li>
+                        <h3  class="bullet-heading">Propose a solution</h3>
+                        There are two components to our problem: a system that does not afford ease of planning, and a design that heightens the confusion of an already challenging process of juggling different schedules. The process of scheduling is overwhelming due to a lack of a system that can handle it more quickly and efficiently, and the managing of schedules is made more complicated with an interface that is not easy to navigate. Our team proposes to resolve both of these issues by building a system that figures out the difficulties of scheduling for the student and is intuitive to use. Our design will simplify properties such as menus and buttons with vague purposes. The flow of pages will be easier to understand, and navigating between pages will also be easier by having a better menu system. The number of windows will be reduced, and windows will also be able to be resized more easily. The way information and schedules are displayed will be streamlined to optimize the amount of relevant content that is shown on the screen without overwhelming the user.
+                      
+                    </li>
+                    <li>
+                        <h3  class="bullet-heading">How will you measure success?</h3>
+                        -intuitive navigation of scheduling features
+                        <br>
+                        -display of scheduling features that isn’t overwhelming/confusing
+                        <br>
+                        -cut down on time spent planning schedules 
+                        <br>
+                        -schedule building shows all possible information in a concise format
+
+                    </li>
+                </ol>
+            </div>
+            <div class="section">
+                <h2>Task D</h2>
+                <ol>
+                    <li>
+                        <h3>Credits</h3>
+                        <ul>
+                            <li>
+                                Brett:
+                                <ul>
+                                    <li>
+                                        Searched for sources
+                                    </li>
+                                    <li>
+                                        7 stages of action for problem
+                                    </li>
+                                    <li>
+                                        Identify potential users
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Rebecca:
+                                <ul>
+                                    <li>
+                                        Set up website on Github Pages
+                                    </li>
+                                    <li>
+                                        Edited and input the results on the site
+                                    </li>
+                                    <li>
+                                        Recorded and uploaded video
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Sophia:
+                                <ul>
+                                    <li>
+                                        Described potential guidelines and solutions
+                                    </li>
+                                    <li>
+                                        Described existing solutions and proposed new solution
+                                    </li>
+                                    <li>
+                                        Described the success measurements
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Patrick:
+                                <ul>
+                                    <li>
+                                        Organized sources
+                                    </li>
+                                    <li>
+                                        Fine-tuned sources
+                                    </li>
+                                    <li>
+                                        Edited the writing
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                        <li>
+                            <h3>Video</h3>
+                            <a href ="https://youtu.be/EGm-f5LdaTU">link to video if iframe doesn't work</a>
+                            <br>
+                            <iframe src="https://youtu.be/EGm-f5LdaTU" allowfullscreen>
+                            </iframe>
+                        </li>
+                    
+                </ol>
+                
+            </div>
+            <div class="section">
+                <h2>Sources</h2>
+                <div>
+                    <a href="https://www.researchgate.net/profile/Fadi-Aloul/publication/228634502_Solving_the_University_Class_Scheduling_Problem_Using_Advanced_ILP_Techniques/links/02e7e5259692e8d824000000/Solving-the-University-Class-Scheduling-Problem-Using-Advanced-ILP-Techniques.pdf">(1) ILP Scheduling</a>
+                    <br>
+                    <a href="https://www.sciencedirect.com/science/article/pii/S0272775707000957">(2) Spaced out courses = higher performance</a>
+                    <br>
+                    <a href="https://www.sciencedirect.com/science/article/pii/S0272775717305150">(3) Academic achievement across the day</a>
+                    <br>
+                    <a href="http://gmufourthestate.com/2016/12/05/coursicle-comes-to-mason/">(4) Overview on third party schedule software</a>
+                </div>
+
+            </div>
+    </div>
+</body>
+</html>
