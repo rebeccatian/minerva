@@ -1,11 +1,7 @@
 body {
-    text-align: center;
     padding: 3px;
     background-color: rgb(107, 62, 47);
     color: whitesmoke;
-}
-h1 {
-    width: 100vw;
 }
 .header {
     text-align: center;
