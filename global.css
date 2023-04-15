@@ -25,3 +25,6 @@ ul > li {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+img {
+    width: 50vw;
+}
